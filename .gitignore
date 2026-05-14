@@ -1,0 +1,4 @@
+*.rock
+.luarocks/
+*.so
+*.o
