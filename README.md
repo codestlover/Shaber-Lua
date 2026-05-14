@@ -29,7 +29,17 @@ Works on Lua 5.1, 5.3 and LuaJIT.
 
 ## Install
 
+From LuaRocks:
+
 ```bash
+luarocks install --server=https://luarocks.org/manifests/codestlover shaber
+```
+
+Or from a local clone:
+
+```bash
+git clone https://github.com/codestlover/Shaber-Lua
+cd Shaber-Lua
 luarocks make shaber-0.1.0-0.rockspec
 ```
 
