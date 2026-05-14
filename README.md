@@ -30,7 +30,7 @@ Works on Lua 5.1, 5.3 and LuaJIT.
 ## Install
 
 ```bash
-luarocks make shaber-0.0.0-0.rockspec
+luarocks make shaber-0.1.0-0.rockspec
 ```
 
 Or just drop `shaber.lua` and `shaber/radio.lua` somewhere on `package.path`.

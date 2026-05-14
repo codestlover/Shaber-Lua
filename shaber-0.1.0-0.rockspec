@@ -1,21 +1,22 @@
 package = "shaber"
-version = "0.0.0-0"
+version = "0.1.0-0"
 
 source = {
-  url = "git+https://example.invalid/shaber.git",
-  tag = "v0.0.0",
+  url = "git+https://github.com/codestlover/Shaber-Lua.git",
+  tag = "v0.1.0",
 }
 
 description = {
-  summary  = "Shaber API client — Lua bindings for the Spore archive that talks JSON.",
+  summary  = "Shaber API client: Lua bindings for the Spore archive that talks JSON.",
   detailed = [[
     Wraps every endpoint of the Shaber HTTP API (the legacy Spore.com REST
     mirror, Sporepedia gap endpoints, and the multilingual Fandom wiki proxy)
     plus the /api/radio WebSocket stream. Returns parsed Lua tables; raises on
     non-200 responses.
   ]],
-  homepage = "https://github.com/misa/shaber",
+  homepage = "https://github.com/codestlover/Shaber-Lua",
   license  = "BSD-3-Clause",
+  maintainer = "codestlover <codestlover@proton.me>",
 }
 
 dependencies = {
